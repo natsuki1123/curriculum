@@ -1,0 +1,9 @@
+問１　Switch3
+問２switch1 F0/1 DP RPの向かいだから
+   switch1 F0/2 RP　ルートブリッジに近いから
+   switch2 F0/1 RP　ルートブリッジに近いから
+   switch2 F0/2 BP　DPとRPに該当しないから
+   switch3 F0/1 DP　ルートブリッジ
+   switch3 F0/2 DP　ルートブリッジ
+   switch4 F0/1 DP　Switch3-4-2(100＋100)の方がパスコストがSwitch3-1-2-4(100＋19＋100)より低いから
+   switch4 F0/2 RP　ルートブリッジに近いから
